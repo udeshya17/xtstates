@@ -111,7 +111,7 @@ function App() {
       <br/>
       {(cityName && countryData && stateName) ?
         <div>
-        <span><b>You Selected </b></span>
+        <span><b>You selected </b></span>
         <span style={{fontSize:'25px', fontWeight:'10px'}}><b>{cityName},</b></span>
         <span style={{fontSize:'20px', fontWeight:'10px', color:'gray'}}><b>{stateName},</b></span>
         <span style={{fontSize:'17px', fontWeight:'10px', color:'gray'}}><b>{countryName}</b></span>
